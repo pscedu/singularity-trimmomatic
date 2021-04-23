@@ -1,4 +1,5 @@
 # singularity-trimmomatic
+[![Build Status](https://www.travis-ci.com/icaoberg/singularity-trimmomatic.svg?branch=master)](https://www.travis-ci.com/icaoberg/singularity-trimmomatic)
 
 Singularity recipe for Trimmomatic.
 
