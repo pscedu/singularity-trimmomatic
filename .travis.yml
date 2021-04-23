@@ -26,6 +26,7 @@ addons:
       - libarchive-dev
       - libgpgme11-dev
       - libseccomp-dev
+      - tree
   homebrew:
     packages:
       - squashfs
@@ -52,4 +53,4 @@ install:
   - # override
 
 script:
-  - cd 0.39 && bash ./build.sh && find . -type f
+  - cd 0.39 && bash ./build.sh
