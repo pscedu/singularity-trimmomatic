@@ -1,0 +1,12 @@
+#!/bin/bash
+
+VERSION=0.39
+PACKAGE=trimmomatic
+DIRECTORY=$(dirname $0)
+
+PERSISTENT_FILE_STORAGE=/ocean
+if [ ! -d $PERSISTENT_FILE_STORAGE ]; then
+	singularity exec $DIRECTORY/singularity-$PACKAGE-$VERSION.sif java -jar /opt/trimmomatic/trimmomatic-0.39.jar "$@"
+else
+	singularity exec -B $PERSISTENT_FILE_STORAGE $DIRECTORY/singularity-$PACKAGE-$VERSION.sif java -jar /opt/trimmomatic/trimmomatic-0.39.jar "$@"
+fi
