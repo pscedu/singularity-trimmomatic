@@ -42,7 +42,6 @@ git:
     submodules: false
 
 before_install:
-  - apt install -y tree
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - sed -i 's/git@gist.github.com:/https:\/\/gist.github.com\//' .gitmodules
   - git submodule update --init --recursive
@@ -53,4 +52,4 @@ install:
   - # override
 
 script:
-  - cd 0.39 && bash ./build.sh && tree .
+  - cd 0.39 && bash ./build.sh && find . -type f
