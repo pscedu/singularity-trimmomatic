@@ -3,7 +3,7 @@ os: linux
 # whitelist
 branches:
   only:
-    - master
+    - main
 
 language: go
 
