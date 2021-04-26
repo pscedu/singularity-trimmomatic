@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
 IMAGE=singularity-trimmomatic-0.39.sif
 DEFINITION=Singularity
 
