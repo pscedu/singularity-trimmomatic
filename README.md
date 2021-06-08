@@ -1,7 +1,5 @@
 # singularity-trimmomatic
-[![Build Status](https://www.travis-ci.com/icaoberg/singularity-trimmomatic.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-trimmomatic)
-
-Singularity recipe for Trimmomatic.
+Singularity recipe for [Trimmomatic](https://github.com/usadellab/Trimmomatic).
 
 ## Building the image using the recipe
 
@@ -20,6 +18,6 @@ bash ./build.sh
 ```
 
 ---
-Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
