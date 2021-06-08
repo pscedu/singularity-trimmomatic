@@ -21,11 +21,11 @@ Trimmomatic performs a variety of useful trimming tasks for illumina paired-end 
 
 To load the module type
 
-> module load trimmomatic/0.39
+> module load Trimmomatic/0.39
 
 To unload the module type
 
-> module unload trimmomatic/0.39
+> module unload Trimmomatic/0.39
 
 Documentation
 -------------
@@ -41,7 +41,7 @@ Tools included in this module are
 * trimmomatic
 ]])
 
-local package = "trimmomatic"
+local package = "Trimmomatic"
 local version = "0.39"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
