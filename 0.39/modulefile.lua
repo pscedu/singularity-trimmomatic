@@ -42,6 +42,6 @@ Tools included in this module are
 ]])
 
 local package = "trimmomatic"
-local version = "4.1.0"
+local version = "0.39"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
