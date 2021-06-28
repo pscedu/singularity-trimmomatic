@@ -12,9 +12,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data.")
 
 help([[
-trimmomatic 0.39
-----------------
-
 Description
 -----------
 Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data. The selection of trimming steps and their associated parameters are supplied on the command line.
