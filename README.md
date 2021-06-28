@@ -14,7 +14,7 @@ Copy the
 
 to `/opt/packages/trimmomatic/0.39`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/trimmomatic` as `0.39`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/trimmomatic` as `0.39.lua`.
 
 ## Building the image using the recipe
 
@@ -26,7 +26,7 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./build.sh
