@@ -37,7 +37,6 @@ Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
 # singularity-trimmomatic
-Singularity recipe for [Trimmomatic](https://github.com/usadellab/Trimmomatic).
 
 ## Installing the container on Bridges 2
 Copy the
