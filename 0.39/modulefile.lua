@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
 -- "Description: Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data."
+-- "Keywords: singularity bioinformatics"
 
 whatis("Name: Trimmomatic")
 whatis("Version: 0.39")
